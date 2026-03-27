@@ -149,8 +149,7 @@ QUIT
 
 ---
 
-## 📡 Protocol (How Client ↔ Server Talk)
-
+## 📡 Protocol 
 Some key messages:
 
 ```
@@ -195,11 +194,11 @@ Covers:
 
 ---
 
-## ⚙️ Design Choices (Important)
+## ⚙️ Design Choices 
 
-### Server is the boss
+### Server 
 
-The server is the **single source of truth**. Clients don’t decide anything, they just send inputs.
+The server is the **single source of truth**. Client sonly send inputs, which gets validated by the server.
 
 ### Move queue
 
